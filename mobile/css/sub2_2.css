@@ -1,0 +1,58 @@
+/* 비주얼 */
+.visual{height: 200px;}
+.visual img{position: relative; object-fit: cover;
+    width: 100%; height: 200px;}
+/* .visual img */
+.visual span{display: block; font-size: 1.5rem; font-weight: 500;
+    position: absolute; top: 120px; left: 50%;
+    transform: translate(-50%, -50%); color: #fff;}
+
+/* sub nav */
+.sub_nav ul{width: 100%; display: flex;}
+.sub_nav ul li{width: 50%; margin: 0 auto;}
+.sub_nav ul li a{display: block; height: 30px;
+    font-weight: 400; font-size: 1rem;
+    text-align: center; padding: 10px 10px 5px; align-content: center;}
+.sub_nav ul li .current{font-weight: 500; color: #053;
+    border-bottom: 2px solid #053;}
+
+/* 본문콘텐츠영역 */
+#content h3{font-size: 2em; font-weight: 700;
+    margin: 80px 30px 50px; position: relative;}
+#content h3::before{content: ''; display: block;
+    background: #053; width: 100px; height: 6px;
+    position: absolute; top: -20px; left: 0;}
+
+#content .content_area div ul{display: flex;
+    justify-content: space-between; margin: 0 20px;}
+#content .content_area div ul li{
+    width: 70px; height: 70px; margin: 10px 0;
+    border-radius: 50%; background: #eed;}
+#content .content_area div ul li a h4{text-align: center;
+    font-size: 1.1em; font-weight: 500; margin-top: 25px;}
+#content .content_area div ul li:nth-child(3) a h4{margin-top: 10px;}
+
+#content .content_area div .current{background: rgba(0, 85, 51, 1);}
+#content .content_area div .current a h4{color: #fff; font-weight: 600;}
+
+#content .content_area{position: relative;}
+#content .content_area dl{margin: 30px;}
+#content .content_area dt{font-size: 1.5em; font-weight: 600;
+    color: #053; margin-bottom: 10px;}
+#content .content_area dd{font-size: 1em; font-weight: 400;
+    line-height: 1.7em;}
+#content .content_area dd:last-of-type{margin: 10px 0;
+    color: #B97; font-size: 1.1em; font-weight: 600;}
+#content .content_area dd i{margin: 0 5px;}
+
+#content .content_area .contlist {display: none;}
+
+.map_api{margin-bottom: 100px;}
+.map_api #map1{width: 90%; height: 400px; margin: 0 auto;
+    border: 2px solid #999;}
+.map_api #map2{width: 90%; height: 400px; margin: 0 auto;
+    border: 2px solid #999;}
+.map_api #map3{width: 90%; height: 400px; margin: 0 auto;
+    border: 2px solid #999;}
+.map_api #map4{width: 90%; height: 400px; margin: 0 auto;
+    border: 2px solid #999;}

@@ -1,0 +1,48 @@
+/* 비주얼 */
+.visual{height: 200px;}
+.visual img{position: relative; object-fit: cover;
+    width: 100%; height: 200px;}
+/* .visual img */
+.visual span{display: block; font-size: 1.5rem; font-weight: 500;
+    position: absolute; top: 120px; left: 50%;
+    transform: translate(-50%, -50%); color: #fff;}
+
+/* sub nav */
+.sub_nav ul{width: 100%; display: flex;}
+.sub_nav ul li{width: 50%; margin: 0 auto;}
+.sub_nav ul li a{display: block; height: 30px;
+    font-weight: 400; font-size: 1rem; border-bottom: 2px solid #f8f8f8;
+    text-align: center; padding: 10px 10px 5px; align-content: center;}
+.sub_nav ul li .current{font-weight: 500; color: #053;
+    border-bottom: 2px solid #053;}
+
+/* 본문콘텐츠영역 */
+
+#content div:first-of-type{margin: 50px 0; position: relative;}
+#content div h3{font-size: 2em; font-weight: 700;
+    margin-left: 30px; padding: 30px 0 0;}
+#content div h3::before{content: ''; display: block;
+    background: #b97; width: 100px; height: 6px;
+    position: absolute; top: 10px; left: 30px;}
+#content div:first-of-type img{width: 200px; margin: 50px 0 0 30px;}
+#content div:first-of-type dl{margin: 0 30px 10px;}
+#content div:first-of-type dl dt{font-size: 1rem; font-weight: 500;
+    margin: 10px 0;}
+#content div:first-of-type dl dd{font-weight: 400;
+    text-align: justify;}
+
+#content div:nth-of-type(2){width: 100%; position: relative;}
+#content div:nth-of-type(2) img{width: 100%; object-fit: contain;}
+#content div:nth-of-type(2) p{font-family: "DM Serif Text", serif;
+    font-style: normal; font-size: 1.71rem; font-weight: 400;
+    color: #fff; line-height: 1.1em; text-align: right;
+    position: absolute; bottom: 30px; right: 30px;}
+
+#content .map_box dl{margin: 50px 30px;}
+#content .map_box dl dt{font-size: 1.4em; font-weight: 700; margin: 30px 0;}
+#content .map_box dl dd{font-weight: 400;}
+#content .map_box dl dd:last-of-type{margin: 30px 0; color: #053;}
+
+#content .map_box .map_api{}
+#content .map_box .map_api #map{width: 90%; height: 360px;
+    border: 2px solid #999; margin: 0 auto;}

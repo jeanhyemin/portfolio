@@ -1,0 +1,50 @@
+/* 비주얼 */
+.visual{height: 200px;}
+.visual img{position: relative; object-fit: cover;
+    width: 100%; height: 200px;}
+/* .visual img */
+.visual span{display: block; font-size: 1.5rem; font-weight: 500;
+    position: absolute; top: 120px; left: 50%;
+    transform: translate(-50%, -50%); color: #fff;}
+
+/* sub nav */
+.sub_nav ul{width: 100%; display: flex;}
+.sub_nav ul li{width: 50%; margin: 0 auto;}
+.sub_nav ul li a{display: block; height: 30px;
+    font-weight: 400; font-size: 1rem;border-bottom: 2px solid #f8f8f8;
+    text-align: center; padding: 10px 10px 5px; align-content: center;}
+.sub_nav ul li .current{font-weight: 500; color: #053;
+    border-bottom: 2px solid #053;}
+
+/* 본문콘텐츠영역 */
+#content div:first-of-type{padding: 50px 30px;
+    position: relative;}
+#content div h3{font-size: 2em; font-weight: 700;
+    margin-top: 30px;}
+#content div h3::before{content: ''; display: block;
+    background: #053; width: 100px; height: 6px;
+    position: absolute; top: 60px; left: 30px;}
+#content div dl dt{font-size: 1.3rem; font-weight: 600;
+    margin: 30px 0 10px; color: #053;}
+#content div dl dd{font-weight: 400; text-align: justify;}
+
+#content .content_area{position: relative; margin-bottom: 80px;}
+
+#content .content_area .group{background: #b97; padding: 0;
+    display: flex; align-items: center; position: relative;}
+#content .content_area .group p{font-size: 1.25em; font-weight: 400;
+    color: #fff; width: 100%; padding: 10px 50px; text-align: center;}
+#content .content_area .group .all{font-size: 1.25em; font-weight: 600;
+    color: #fff; display: block; position: absolute; right: 35px; top: 10px;}
+
+#content .content_area ul .article{padding: 0 30px 30px; border-bottom: 1px solid #b97;}
+#content .content_area ul .article .q{font-size: 1.17em; font-weight: 500;
+    margin-top: 30px; display: flex; padding: 0 5px;}
+#content .content_area ul .article .q span{display: block;
+    color: #b97; padding-left: 10px;}
+#content .content_area ul .article a{font-size: 1em; font-weight: 400;}
+#content .content_area ul .article a:first-of-type{width: 100%;
+    padding-left: 10px;}
+
+#content .content_area ul .article .a{font-size:1em;
+width: 100%; padding: 20px 0 5px; text-align: justify;}

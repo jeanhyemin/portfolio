@@ -1,0 +1,100 @@
+{
+    "bread": [
+        {
+            "Name": "소금버터롤",
+            "Image": "./images/sub_images/21bread/bread01.jpg",
+            "Info": "버터의 고소함과 소금의 짭짤함이 어우러져 술술 들어가는 식사빵",
+            "Gram": 62 ,
+            "Kcal": 240 ,
+            "Sugar": "5/5",
+            "Protien": "5/9",
+            "Fat": "6/40",
+            "Na": "270/14",
+            "Allergie": "우유, 밀 함유"
+         },
+        {
+            "Name": "쑥이 듬뿍 맘모스",
+            "Image": "./images/sub_images/21bread/bread02.jpg",
+            "Info": "쑥향이 은은한 단팥 앙금 쑥 소보로 빵에 고구마, 콩배기를 넣은 곡물크림을 가득 샌드한 할매입맛 총집합 제품",
+            "Gram": 280 ,
+            "Kcal": 970 ,
+            "Sugar": "65/65",
+            "Protien": "20/36",
+            "Fat": "21/140",
+            "Na": "550/28",
+            "Allergie": "계란, 우유, 대두, 밀, 아황산류 함유"
+        },
+        {
+            "Name": "마롱크림롤",
+            "Image": "./images/sub_images/21bread/bread03.jpg",
+            "Info": "바삭하게 카라멜 코팅된 달콤한 패스트리에 풍미가 좋은 밤 크림을 듬뿍 넣은 가을 시즌 크림롤",
+            "Gram": 101 ,
+            "Kcal": 390 ,
+            "Sugar": "22/22",
+            "Protien": "5/9",
+            "Fat": "15/100",
+            "Na": "190/10",
+            "Allergie": "계란, 우유, 대두, 밀, 아황산류 함유"
+        },
+        {
+            "Name": "쁘띠 딸기 생크림 케이크",
+            "Image": "./images/sub_images/21bread/bread04.jpg",
+            "Info": "새콤달콤한 딸기와 상큼한 딸기 꿀리를 더하여 입안 가득 산뜻한 맛을 느낄 수 있는 디저트 케이크",
+            "Gram": 189 ,
+            "Kcal": 465 ,
+            "Sugar": "38/38",
+            "Protien": "8/15",
+            "Fat": "14/93",
+            "Na": "210/11",
+            "Allergie": "계란, 우유, 대두, 밀, 돼지고기, 아황산류 함유"
+        },
+        {
+            "Name": "패스트리에 빠진 에그푸딩",
+            "Image": "./images/sub_images/21bread/bread05.jpg",
+            "Info": "결이 살아있는 바삭한 패스트리에 달콤하고 부드러운 에그푸딩과 맛을 올려줄 밀크 카라멜을 더한 제품",
+            "Gram": 94 ,
+            "Kcal": 430 ,
+            "Sugar": "10/10",
+            "Protien": "9/16",
+            "Fat": "2.9/19",
+            "Na": "880/44",
+            "Allergie": "계란, 우유, 대두, 밀 함유"
+        },
+        {
+            "Name": "퐁신퐁신 우유 도넛",
+            "Image": "./images/sub_images/21bread/bread06.jpg",
+            "Info": "폭신한 도넛 속 달콤한 바닐라우유크림을 가득 샌드한 제품",
+            "Gram": 102 ,
+            "Kcal": 355 ,
+            "Sugar": "12/12",
+            "Protien": "5/9",
+            "Fat": "11/73",
+            "Na": "180/9",
+            "Allergie": "계란, 우유, 대두, 밀 함유"
+        },
+        {
+            "Name": "마담 얼그레이 크림번",
+            "Image": "./images/sub_images/21bread/bread07.jpg",
+            "Info": "부드러운 생크림과 얼그레이 토핑을 더한 빵이 은은하게 어우러져 향긋한 홍차향을 느낄 수 있는 크림번",
+            "Gram": 100 ,
+            "Kcal": 395 ,
+            "Sugar": "18/18",
+            "Protien": "9/16",
+            "Fat": "14/93",
+            "Na": "250/13",
+            "Allergie": "계란, 우유, 대두, 밀 함유"
+        },
+        {
+            "Name": "까망쿠키 속 리얼말차 크림빵",
+            "Image": "./images/sub_images/21bread/bread08.jpg",
+            "Info": "은은한 말차라떼 크림이 듬뿍 들어있는 빵에 바삭한 비스켓을 토핑하여 맛도 식감도 모두 좋은 제품",
+            "Gram": 80 ,
+            "Kcal": 10 ,
+            "Sugar": "16/16",
+            "Protien": "7/13",
+            "Fat": "17/113",
+            "Na": "220/11",
+            "Allergie": "계란, 우유, 대두, 밀 함유"
+        }
+    ]
+  }

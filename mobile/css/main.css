@@ -1,0 +1,95 @@
+/* 메인 비주얼 */
+/* .visual{} */
+.visual li ul{padding-bottom: 50px;}
+.visual li{position: relative;}
+.visual img{ width: 100%;}
+.visual div ul li span{position: absolute; top: 62%; left: 25px;
+    font-size: 2em; font-weight: 700; color: #eed;}
+.visual .swiper-container-horizontal>.swiper-pagination-bullets{bottom: 50px;}
+.visual div ul li:nth-of-type(3) span{top: 37%; left: 30%;
+    font-family: "Lato", sans-serif; text-align: center;}
+.visual div ul li:nth-of-type(4) span{left: none; top: 15%; right: 25px;
+    text-align: right;}
+
+/* 콘텐츠 */
+#content section{padding-top: 10px; margin-bottom: 50px;
+    overflow: hidden; position: relative;}
+#content section >div{padding-bottom: 5px; overflow: hidden;}
+#content section >div h3{font-size: 1.5rem; font-weight: 700;
+    margin: 10px 0 10px 30px;}
+#content section >div p{font-size: 1.1rem; font-weight: 500;
+    margin: 5px 0 10px 30px;}
+.swiper-pagination-bullet-active{background: #b97;}
+
+/* .brand */
+#content section .more{position:absolute; right: 0; top:45px}
+#content section .more div{width: 30px; height: 2px;
+    background: #053; padding-bottom: 0; overflow: unset;
+    position: absolute; right: 0; bottom: 0;}
+#content section .more div::before{content: ''; display: block;
+    width: 100px; height: 2px; background: #053;
+    position: absolute; right: 0; top: 0;}
+#content section .more div::after{content: ''; display: block;
+    width: 30px; height: 2px;
+    background: #053; transform: rotate(30deg);
+    position: absolute; right: 0; top: -8px;}
+
+.brand >a{margin: 0 20px; position: relative;}
+.brand img{border-radius: 20px 20px 0 0;width: 100%;}
+.brand >a dl{background: #eed; border-radius: 0 0 20px 20px;
+    padding: 20px;}
+.brand >a dl dt{font-size: 1.14em; font-weight: 700;}
+.brand >a dl dd{line-height: 1.7em; margin: 10px 0 20px;}
+.brand >a span{font-size: 0.86em; font-weight: 500; color: #053;
+    position: absolute; right: 20px; bottom: 20px;}
+
+.brand ul {display: flex; justify-content: space-between;
+    margin: 0 20px;}
+.brand ul li {width: calc(50% - 5px); margin: 20px 0 0;}
+.brand ul li a{position: relative; max-width: 100%;}
+.brand ul li a img{border-radius: 20px 20px 0 0;
+    max-width: 100%;}
+.brand ul li a dl{background: #eed;
+    border-radius: 0 0 20px 20px;
+    padding: 20px; max-width: 100%;}
+.brand ul li a dl dt{font-weight: 700;}
+.brand ul li a dl dd{font-weight: 500;
+    line-height: 1.5em; margin: 10px 0 20px;}
+.brand ul li a dl dd span{font-weight: 700; color: #053;
+    position: absolute; right: 20px; bottom: 15px;}
+
+/* .goods */
+#content section:nth-of-type(2) .more{right: 20px;}
+.goods div ul{padding: 15px 0 50px;}
+.goods div ul li{width: 100%;}
+.goods div ul li img{width: 100%;}
+.goods div ul li a{text-align: center;}
+.goods div ul li a span{font-size: 0.86em; font-weight: 500;}
+
+/* .promo */
+.promo ul{padding: 30px 0;}
+.promo ul li{width: 100%; background: #eed; border-radius: 20px; box-sizing: border-box;
+  padding: 20px;}
+.promo ul li img{width: 100%; margin-bottom: 20px;}
+.promo dl{text-align: center;}
+.promo dt{font-size: 1.1rem; font-weight: 600; margin-bottom: 15px;}
+.promo dd{line-height: 1.5rem;}
+.promo .swiper-button-next,.promo .swiper-button-prev{
+    color: #b97;
+} 
+#content .promo .more{right: 20px; top: 50px;}
+
+/* .faq */
+#content section:nth-of-type(4) .more{right: -5px;}
+.faq div:last-of-type{background: #b97; border-radius: 5px;
+    font-size: 1.1em; font-weight: 500; color: #fff;
+    text-align: center; margin: 5px 25px;}
+.faq ul{margin: 5px 25px;}
+.faq .article{margin: 10px;}
+.faq .article .q{font-size: 1em; font-weight: 700;}
+.faq .article .q i{display: block; text-align: right;
+    color: #b97; font-weight: 700; padding-bottom: 3px;}
+.faq .article .a{font-size: 1em; font-weight: 400;
+    border-top: 1px solid #b97; padding-top: 5px;}
+
+#content .faq .more{right: 20px;}

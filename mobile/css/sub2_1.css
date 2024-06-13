@@ -1,0 +1,77 @@
+/* 비주얼 */
+.visual{height: 200px;}
+.visual img{position: relative; object-fit: cover;
+    width: 100%; height: 200px;}
+/* .visual img */
+.visual span{display: block; font-size: 1.5rem; font-weight: 500;
+    position: absolute; top: 120px; left: 50%;
+    transform: translate(-50%, -50%); color: #fff;}
+
+/* sub nav */
+.sub_nav ul{width: 100%; display: flex;}
+.sub_nav ul li{width: 50%; margin: 0 auto;}
+.sub_nav ul li a{display: block; height: 30px;
+    font-weight: 400; font-size: 1rem;
+    text-align: center; padding: 10px 10px 5px; align-content: center;}
+.sub_nav ul li .current{font-weight: 500; color: #053;
+    border-bottom: 2px solid #053;}
+
+/* 본문콘텐츠영역 */
+#content >div:first-of-type{padding: 50px 30px 0; position: relative;}
+#content div h3{font-size: 2em; font-weight: 700;
+    margin-top: 30px;}
+#content div h3::before{content: ''; display: block;
+    background: #053; width: 100px; height: 6px;
+    position: absolute; top: 60px; left: 30px;}
+#content div p{font-size: 1.3rem; font-weight: 400;
+    color: #053; margin: 30px 0 50px;}
+
+#content .search_box{margin: 50px 15px; background: #eed; padding: 15px; border-radius: 15px;}
+#content .search_box label{color: #053; font-size: 1.5rem;}
+#content .search_box input{font-size: 20px; padding:5px 10px;
+    border: 0; background: #eed; outline: none;}
+#content .search_box span{display: flex; justify-content: center; gap: 15px; margin-top: 20px;}    
+#content .search_box button{width: 100px; padding: 5px 0;
+    font-size: 1.1em; border: 0; background: #053;
+    color: #fff; font-weight: 700; border-radius: 20px;}
+#content .search_box .btn_all{background: #B97;}
+
+#content .product_list{margin: 0 30px 50px;}
+#content .product_list ul{display: flex; flex-wrap: wrap;}
+#content .product_list ul li{width: 50%; height: calc(100% + 40px);}
+#content .product_list ul li img{width: 100%; height: 100%;
+    margin: 5px;}
+#content .product_list ul li p{font-size: 1rem; font-weight: 500;
+    margin: 30px 10px; color: #333; text-align: center;}
+
+/* 모달팝업 */
+#content .modal_back{background: rgba(0, 0, 0, .6); width: 100%; height: 100%;
+    position: fixed; top: 0; left: 0; z-index: 50; display: none;}
+
+#content .popup{margin: 50px 10px; z-index: 100;
+    border: 3px solid #EED; position: relative;}
+
+#content .popup .menu{margin: 10px 30px;}
+#content .popup .menu img{width: 50%; display: block; margin: 50px auto 0;}
+#content .popup .menu dl{margin: 10px auto; padding: 10px; text-align: center;
+    background: #eed; border-radius: 5px;}
+#content .popup .menu dl dt{font-size: 1.1em; font-weight: 600;}
+#content .popup .menu dl dd{font-size: 1em; font-weight: 400;}
+
+#content .popup .nutrient{border-collapse: collapse; margin: 10px auto 20px; width: 80%;}
+#content .popup .nutrient .col{font-size: 1.1em; font-weight: 600;
+    color: #053; text-align: right; padding: 5px 10px; width: 45%;}
+#content .popup .nutrient tr{text-align: center;
+    border-top: 1px solid rgba(0, 82, 53, .2);
+    border-bottom: 1px solid rgba(0, 82, 53, .2);}
+#content .popup .nutrient tr:first-of-type {
+    border-top: 1px solid rgba(0, 82, 53, 1);}
+#content .popup .nutrient tr:last-of-type {
+    border-bottom: 1px solid rgba(0, 82, 53, 1);}
+#content .popup .nutrient td{padding: 5px 10px;}
+ 
+#content .popup .close{text-indent: -999px;
+    position: absolute; top: 10px; right: 10px;
+    display: block; overflow: hidden;
+    width: 20px; height: 20px; padding: 10px;
+    background: url(../images/sub_images/21cancel01.png) no-repeat center;}

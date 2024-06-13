@@ -1,0 +1,167 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+/* font-family: "Noto Sans KR", sans-serif; */
+/* font-family: "Lato", sans-serif; */
+
+/* 모바일 코딩 필수 공통영역 */
+* {
+ margin:0;
+ padding:0;
+ -webkit-text-size-adjust:none;
+}
+body {
+ color:#333;
+ font-size:14px;
+ font-family: "Noto Sans KR", sans-serif;
+}
+
+img, fieldset { border:0; vertical-align:top }
+ul, ol, li, dl { list-style:none; }
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:normal; }
+hr { display:none; }
+a { color:inherit; display: block;}
+a, a:link { color:#333; text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active { color:#333; text-decoration:none; }
+em, i, address { font-style:normal; font-weight:normal; }
+legend, caption { display:none; clear:both; }
+input, textarea, select, button, table { font-size:inherit; font-family:inherit; line-height:inherit; }
+section, nav, article, aside, hgroup, header, footer { display:block }
+textarea, input { border-radius:1px; }
+textarea { resize:none; }
+label { cursor:pointer; }
+table{border-collapse: collapse;}
+.hidden,#skipNav{display: block; position: absolute; left:-1000%;top:0; width: 1px; height: 1px; overflow: hidden; color: #fff}
+
+
+/* 전체 공통 */
+#wrap{width:100%; position: relative; overflow:hidden;}
+
+/* 헤더공통 */
+#headerArea{position: fixed; top: 0; left: 0;height: 70px;
+    width: 100%; z-index: 100;}
+#headerArea .header_top{overflow: hidden;}
+#headerArea h1{float: left; width: 200px;height: 28px; margin: 25px 0 0 15px;}
+#headerArea h1 a{width: 200px;height: 28px;
+    background: url(../images/logo01.png) no-repeat; text-indent: -9999px;
+   overflow: hidden;}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    #headerArea h1 a{ background: url(../images/logo01x2.png);
+                background-size: 200px 28px; }
+}
+
+#headerArea .menu_ham {
+    display: block;
+    float: right;
+    padding-top: 10px;
+    height: 50px;
+    position: relative;
+    z-index:30; 
+    border-radius: 5px;
+}
+#headerArea .menu_ham span {
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    position: relative;
+    text-indent: -9999px;
+    display: block;
+    margin: 26px 15px;
+    border-radius: 5px;
+    transition: all .3s;
+}
+#headerArea .menu_ham span::before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    border-radius: 5px;
+    transition: all .3s;
+}
+#headerArea .menu_ham span::after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+/* 메뉴가 열렸을때 */
+#headerArea.mn_open .menu_ham span, 
+#headerArea.mn_open .menu_ham span::before, 
+#headerArea.mn_open .menu_ham span::after{background: #fff;}
+#headerArea.mn_open .menu_ham span {background: rgba(0,0,0,0);}
+#headerArea.mn_open .menu_ham span::before {transform: rotate(45deg); top: 0;
+    background: #053;}
+#headerArea.mn_open .menu_ham span::after {transform: rotate(-45deg); top: 0;
+    background: #053;}
+#headerArea .modal{width: 100%; height: 100%;
+   position: fixed; left: 0; top:0;
+   background: rgba(0,0,0,.8); display: none;}
+
+/* nav 영역*/
+#gnb{position: absolute; width: 85%; top: 0; right: -100%;
+    opacity: 0; z-index: 20; background: #eed;}
+#gnb .nav_logo{width: 200px; height: 28px; margin: 27px 0px 30px 8%;}
+#gnb .nav_logo img{width: 200px; height: 28px;}
+#gnb >ul{margin-top: 30px;}
+#gnb li{text-align: left; font-weight: 700; padding: 0 0 0 50px;}
+#gnb li a{display: block; padding: 15px 0} 
+#gnb li h3 a{font-size: 1.2rem; font-weight: 500;}
+#gnb li ul li a{font-size: 1rem; font-weight: 400;}
+/* #gnb li ul li a span{display: block; text-align: right;} */
+#gnb li ul{display: none;}
+#gnb ul .depth1{border-bottom: 1px solid #999;}
+#gnb ul .depth1:first-of-type{border-top: 1px solid #053;}
+
+/* 푸터공통 */
+#footerArea{color: #fff; width: 100%;}
+#footerArea .footer_container{position: relative; width: 100%;
+height: 290px; margin: 0 auto; background: #053; padding: 30px 0;}
+#footerArea .logo{background: url(../images/logo01x2.png) center no-repeat;
+background-size: contain; height: 36px; margin: 0 80px;}
+
+#footerArea .sns{display: flex; justify-content: center;
+    height: 30px; margin: 15px 0;}
+#footerArea .sns a{margin-right: 40px;}
+#footerArea .sns a:last-child{margin-right: 0px;}
+#footerArea .sns a i{font-size: 2em; color:#fff;}
+
+#footerArea .select{background: #eed; width: 200px;
+    display: block; margin: 35px 50% 0; transform: translate(-50%, -50%);}
+#footerArea .select .arrow{display:block; font-size:1.14em;
+color:#053; text-align: center;
+    padding: 10px 40px; transition: all 0.5s;}
+#footerArea .select .arrow i{font-size:0.9em; font-weight: 700; color: #053;}
+#footerArea .select .aList{position:absolute; top:-250px; right:-1px;
+    width:100%; border:1px solid #fff;background: #053; display: none}
+#footerArea .select .aList li{line-height:1.5em; border-bottom:1px solid #053;}
+#footerArea .select .aList li a{display:block; text-align:center;
+    padding:10px 0; color: #fff; transition: all .2s;}
+
+#footerArea .address{line-height: 2em;
+position: absolute; left: 0; top: 160px;}
+#footerArea .address p:first-child{font-size: 1.1em; font-weight: 500;
+    margin: 20px 0 0 30px;}
+#footerArea .address p:last-child{font-size: 0.8em; font-weight: 200;
+    line-height: 1.5em; margin: 5px 30px 0 30px;}
+
+#footerArea .footer_container >p{font-size: 0.8em; font-weight: 500;
+    margin: 10px 0 0 30px; position: absolute; left: 0; bottom: 30px;}
+
+.move_top {
+    display: none;width: 50px;height: 50px;background: #053;
+    text-align: center;font-size: 1.2em;border-radius: 50%;position: fixed; z-index: 50;right:15px;
+    bottom: 15px;transition: all .5s ease-out;box-shadow: 1px 1px 15px 2px rgba(0, 0, 0, .4);}  
+.move_top span {display: block;margin-top: 12px; color: #fff;}  

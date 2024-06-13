@@ -1,0 +1,49 @@
+/* 비주얼 */
+.visual{height: 200px;}
+.visual img{position: relative; object-fit: cover;
+    width: 100%; height: 200px;}
+/* .visual img */
+.visual span{display: block; font-size: 1.5rem; font-weight: 500;
+    position: absolute; top: 120px; left: 50%;
+    transform: translate(-50%, -50%); color: #fff;}
+
+/* sub nav */
+.sub_nav ul{width: 100%; display: flex;}
+.sub_nav ul li{width: 50%; margin: 0 auto;}
+.sub_nav ul li a{display: block; height: 30px;
+    font-weight: 400; font-size: 1rem;border-bottom: 2px solid #f8f8f8;
+    text-align: center; padding: 10px 10px 5px; align-content: center;}
+.sub_nav ul li .current{font-weight: 500; color: #053;
+    border-bottom: 2px solid #053;}
+
+/* 본문콘텐츠영역 */
+#content div:first-of-type{padding: 50px 30px;
+    position: relative;}
+#content div h3{font-size: 2em; font-weight: 700;
+    margin-top: 30px;}
+#content div h3::before{content: ''; display: block;
+    background: #053; width: 100px; height: 6px;
+    position: absolute; top: 60px; left: 30px;}
+#content div dl dt{font-size: 1.3rem; font-weight: 600;
+    margin: 30px 0 10px; color: #053;}
+#content div dl dd{font-weight: 400; text-align: justify;}
+
+#content ol{margin: 0 30px 100px;}
+#content ol li{box-shadow: 1px 2px 3px 1px rgba(0,0,0,.2);
+    border-radius: 10px; margin: 10px 0;
+    position: relative;}
+#content ol li p{font-size: 2em; font-weight: 700; color: #053;
+    padding: 10px 0 0 50px;}
+#content ol li p::before{content: ''; display: block;
+    width: 10px; height: 90%; background: #053;
+    position: absolute; top: 5px; left: 20px;}
+
+#content ol li dl{padding: 10px 10px 10px 50px;}
+#content ol li dl dt{font-size: 1.44em; font-weight: 600;
+    margin-bottom: 10px;}
+#content ol li dl dd{font-size: 1em; font-weight: 400;
+    color: #053; text-align: right;}
+
+#content ol li:last-child p{color: #E62;}
+#content ol li:last-child p:before{background: #E62;}
+#content ol li:last-child dl dd{color: #E62;}

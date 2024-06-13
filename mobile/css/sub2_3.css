@@ -1,0 +1,70 @@
+/* 비주얼 */
+.visual{height: 200px;}
+.visual img{position: relative; object-fit: cover;
+    width: 100%; height: 200px;}
+/* .visual img */
+.visual span{display: block; font-size: 1.5rem; font-weight: 500;
+    position: absolute; top: 120px; left: 50%;
+    transform: translate(-50%, -50%); color: #fff;}
+
+/* sub nav */
+.sub_nav ul{width: 100%; display: flex;}
+.sub_nav ul li{width: 50%; margin: 0 auto;}
+.sub_nav ul li a{display: block; height: 30px;
+    font-weight: 400; font-size: 1rem;
+    text-align: center; padding: 10px 10px 5px; align-content: center;}
+.sub_nav ul li .current{font-weight: 500; color: #053;
+    border-bottom: 2px solid #053;}
+
+/* 본문콘텐츠영역 */
+#content div:first-of-type{padding: 50px 30px 0; position: relative;}
+#content div h3{font-size: 2em; font-weight: 700;
+    margin: 30px 0;}
+#content div h3::before{content: ''; display: block;
+    background: #053; width: 100px; height: 6px;
+    position: absolute; top: 60px; left: 30px;}
+#content div p{font-size: 1.3rem; font-weight: 400;
+    color: #053;}
+#content div span{font-size: 1.1em; font-weight: 400;
+    color: #333; margin: 0 0 5px;}
+
+#content div:nth-of-type(2){background: #eed;
+    padding: 20px 30px; margin: 40px 30px 30px;
+    border-radius: 10px; display: flex; flex-wrap: wrap;
+    justify-content: space-around;}
+#content div:nth-of-type(2) img{width: 150px; height: 100%;}
+#content div:nth-of-type(2) p{font-size: 1.3em; padding-top: 15px;
+    font-weight: 600; text-align: center; color: #333;}
+
+#content ul{margin: 0 50px;}
+#content ul li{position: relative; margin: 30px 0;}
+#content ul li img{width: 70px; border-radius: 10px;
+    position: absolute; top: 0; left: 0;}
+#content ul li dl{margin-left: 100px;}
+#content ul li dl dt{font-size: 1.17em; font-weight: 500;}
+
+#content >h3{font-size: 1.5em; font-weight: 600;
+    margin: 70px 30px 20px 40px;}
+#content .table_box{overflow-x: scroll; margin: 20px 30px 0;}
+#content .table_box table{width: 800px;}
+#content .table_box table thead th{text-align: center;
+    font-size: 1.25em; font-weight: 600; color: #053;
+    padding: 15px 0 10px;}
+#content .table_box table thead th:last-child{
+    text-align: left; padding-left: 20px;}
+#content .table_box table td{text-align: center;
+    font-size: 1em; font-weight: 400;
+    line-height: 1.7em; padding: 15px 20px;}
+#content .table_box table td:last-of-type{text-align: left;}
+#content .table_box table .no_move{background: #eed;
+    position: -webkit-sticky; position: sticky; left:0;}
+#content .table_box thead th:nth-child(1){width: 15%;} 
+#content .table_box thead th:nth-child(2){width: 35%;}
+#content .table_box thead th:nth-child(3){width: 50%;}
+
+#content ul:last-of-type{margin: 30px 30px 70px;}
+#content ul:last-of-type li{margin: 5px 20px 5px;}
+#content ul:last-of-type li::before{content: '';
+    display: inline-block; background: #053;
+    border-radius: 50%; width: 5px; height: 5px;
+    margin: 0 8px 2px 0;}
