@@ -1,0 +1,49 @@
+#content .title_area h2::before{left: 15%;}
+#content .title_area h2::after{right: 15%;}
+
+#content .content_area{position: relative;}
+
+#content .content_area ul li{overflow: hidden; position: relative;
+    padding: 20px 100px; margin:50px auto;}
+#content .content_area ul li div{border-radius: 50%;
+box-shadow: 2px 6px 15px 3px #999; overflow: hidden;
+width: 380px; height: 380px; position: relative;
+background: #fff; float:left;}
+#content .content_area ul li img{position: absolute;
+top: 50%; left: 50%; transform: translate(-50%, -50%);}
+#content .content_area dl{float: right; width: 530px;
+    line-height: 1.7em;}
+#content .content_area dl dt{width: 150px;
+    border-radius: 25px; text-align: center;
+    padding: 5px 10px; margin-bottom: 20px;
+    border: 1px solid #053; color: #053;
+    font-size: 1.25em; font-weight: 500;}
+#content .content_area dl strong{font-size: 1.5em;
+    font-weight: 600;}
+#content .content_area dl p{font-size: 1.5em; font-weight: 400;}
+#content .content_area dl dd:first-of-type{color: #053;
+    font-size: 1.25em; font-weight: 400; margin: 30px 0;}
+#content .content_area dl dd:last-of-type{font-weight: 400;
+    margin: 70px auto 10px;}
+#content .content_area li:first-of-type dd:last-of-type{
+    margin: 50px auto;}
+#content .content_area ul li::after{content: '';
+    width: 870px; height: 130px;
+    background-color: #EED; border-radius: 20px;
+    position: absolute; bottom: 20px; right: 50px; z-index: -1;}
+#content .content_area ul li:first-of-type::after{
+    bottom: 45px;}
+
+#content .content_area li:nth-of-type(2) div,
+#content .content_area li:nth-of-type(4) div,
+#content .content_area li:nth-of-type(5) div{float: right;}
+
+#content .content_area ul li:nth-of-type(2)::after,
+#content .content_area ul li:nth-of-type(4)::after,
+#content .content_area ul li:nth-of-type(5)::after{content:''; right: auto; left:50px}
+
+#content .content_area li:nth-of-type(2) dl,
+#content .content_area li:nth-of-type(4) dl,
+#content .content_area li:nth-of-type(5) dl{float: left;}
+
+#content .content_area ul li:last-of-type{margin-bottom: 200px;}

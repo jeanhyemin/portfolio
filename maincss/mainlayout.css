@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* font-family: "Lato", sans-serif; */
+/* font-family: "Noto Sans KR", sans-serif; */
+/* 비주얼영역 */ 
+.visual{width: 2000px; height: 850px; margin-top: 158px; overflow: hidden; background: #000;
+position: relative; top:0; left: 50%; transform: translateX(-50%);}
+.gallery{position:relative;left:0; top:0; overflow:hidden; width:2000px; height:850px;}
+.gallery li{display:none; position: relative;}
+
+.gallery img{animation: ani 30s linear infinite;}
+@keyframes ani {
+    from {transform: scale(1);}
+    to {transform: scale(1.1);}
+}
+
+.gallery li span{position: absolute; left:0; top: 150px;
+    opacity: 0; font-size: 50px; color: #fff; width: 100%; display: block; text-align: center;  }
+/* .gallery .link1 span{ left:  100px; top: 300px;} */
+
+.dock{width:330px; position:absolute;left: 50%;bottom: 150px;margin-left: -80px;}
+
+.dock .mbutton{ margin-right:15px; cursor : pointer;
+    display:block; float:left; width:16px; height:16px;
+   background: rgba(255,255,255,0); border-radius:50%; border: 2px solid #fff;
+   outline: 2px solid rgba(255,255,255,0); outline-offset: 3px;
+  transition: all .5s}
+
+.dock .ps{margin-right:15px; margin-top: -5px; cursor:pointer; 
+    display:block; float:left; width:25px; height:25px;
+}
+.dock .ps i{font-size: 30px; color: #fff;}   
+
+.visual .btn{ position: absolute; top:350px; left: 50%; opacity: .4;cursor:pointer; color: #fff; transition: all .5s;}
+.visual .btn:hover{opacity: .8;}
+.visual .btn i{font-size:5rem ;}
+.visual .btnLeft{margin-left: -850px;}
+.visual .btnRight{margin-left: 800px;}    
+
+    
+/* 본문 콘텐츠 영역 */
+#content{width:100%;}
+#content h3, h4{
+    font-size: 3.13rem; font-weight: 700;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.brand{overflow: hidden; width: 1600px; margin: 0 auto; position: relative;
+     padding-left: 180px; box-sizing: border-box;}
+.brand h3{margin: 100px 0 50px;}
+.brand p{
+    font-size: 3rem; font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: rgba(0, 85, 51, 1); margin-bottom: 50px;
+}
+.brand dl{width: 600px;}
+.brand dt{
+    font-size: 1.88rem; font-weight: 500; margin-bottom: 50px;
+}
+.brand dd{
+    width: 550px;
+    font-size: 1.25rem; text-align: justify;
+    line-height: 2rem; margin-bottom: 30px;
+}
+.brand div img{position: absolute;}
+.brand div img:nth-of-type(1){top:120px; right:0}
+.brand div img:nth-of-type(2){top:400px; right:100px; box-shadow: 2px 2px 15px 2px rgba(0,0,0,.4);}
+.brand .more{color:#005533 ; margin: 80px 0 100px 350px; position: relative;
+     font-size: 1.1em;}
+.brand .more span{position: absolute; left:175px; top:1px}
+
+.goods{width: 2000px; background:rgba(238, 238, 221, 1); overflow: hidden;
+    position: relative; top: 0; left: 50%; transform: translateX(-50%);}
+.goods h3{text-align: center; margin: 100px 0 60px;}   
+.goods p{text-align: center;font-size: 1.6em; margin-bottom: 50px;}
+.goods .goods_back{width: 1200px; margin: 0 auto;}
+.goods ul{overflow: hidden; padding: 50px 0 100px;
+    width: 1220px; margin: 0 auto;}
+.goods ul li{width: 270px; height: 390px;
+    float: left; margin-right: 40px;
+    position: relative; overflow: hidden;}
+.goods ul li:hover{box-shadow: 1px 1px 15px 2px rgba(0,0,0,.3);}
+.goods ul li:last-child{margin-right: 0;}
+.goods ul li img{transition: all .5s ease-out;}
+.goods ul li:hover img{transform:scale(1.1); filter: blur(2px);}
+.goods li dl{width: 270px; height: 390px;
+    position: absolute; left: 0; top: 320px;
+    background: rgba(0, 85, 51, 1); overflow: hidden;
+    transition: all .5s ease-out;}
+.goods li:hover dl{top:0;  background: rgba(0, 85, 51, .7);}
+.goods li dt{font-size: 1.7em; font-weight: 500;
+    color: #fff; text-align: center;
+    margin: 15px 20px 30px;
+    transition: all .5s ease-out; transition-delay: .5s;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;}
+.goods li:hover dt{white-space: inherit; margin: 40px 20px 0 20px;}
+.goods li:hover dt:first-child{margin: 25px 30px 20px;}
+.goods dd{text-align: justify; font-size: 1.2em; line-height: 2em;
+    margin: 30px; color: #fff; font-weight: 400;}
+.goods li:hover dd{margin: 20px 30px 30px;}
+.goods li dd a{text-align: center; width: 180px; margin: 20px auto 0;
+    background: #fff; color: rgb(132, 152, 144);
+    padding: 5px 0; border-radius: 15px;}
+
+
+/* buy */
+#content .buy{width: 2000px; height: 893px;
+    background: url(../mainimages/offline01.jpg);
+    position: relative; top:0; left: 50%; transform: translateX(-50%);}
+#content .buy section{position:absolute;width: 1000px; height: 600px;
+    color: rgba(0, 85, 51, 1);  background:rgba(255, 255, 255, .5);top: 150px; left: 0;}
+ #content .buy section:last-child{left: auto; right: 0; top: 230px;}
+
+ #content .buy section div{display: block; text-align: center;
+    width: 400px; padding: 100px;
+    float: right;}
+#content .buy section:last-child div{float: none;}
+#content .buy section h4{margin: 0 0 15px 0; font-size: 3rem;}
+#content .buy section span{font-size: 7.38em; padding: 20px;}
+#content .buy section p{font-weight: 400; font-size: 1.5em;
+text-align: center; margin-bottom: 30px;
+line-height: 1.5em;}
+#content .buy section a{text-align: center; width: 200px;
+background:rgba(238, 238, 221, 1); font-weight: 500;
+font-size: 1.5em; padding: 10px 0; border-radius: 20px;
+margin: 0 auto;}
+
+#content .buy section:hover, #content .buy .current{
+color:rgba(238, 238, 221, 1);  background: #005533;
+transition: all .3s ease-out;}
+#content .buy section a:hover{
+padding: 12px 5px; font-size: 1.7em; border-radius: 22px;
+margin: -4px auto; font-weight: 600;}
+
+
+
+.promotion{width: 1200px;
+    position: relative; top:0; left: 50%; transform: translateX(-50%);}
+.promotion h3{text-align: center; margin: 100px 0 40px;}
+.promotion p{text-align: center; font-size: 1.88em; font-weight: 500;
+    margin-bottom: 50px;}
+.promotion ul{height: 815px;}
+.promotion li{display: block; text-align: center;
+    width: 395px; padding: 50px 0; float: left; margin: 10px 0;border-radius: 30px;}
+.promotion img{margin: 10px; border-radius: 10px;}
+.promotion dt{font-size: 1.5em; font-weight: 500; line-height: 2em;}
+.promotion dd{font-weight: 400; line-height: 1.5em;}
+.promotion a span:nth-last-child(1){position: absolute;
+    right: 0px; top:120px; font-size: 45px; color: #005533;}
+
+.promotion li:hover{box-shadow: 1px 1px 15px 2px rgba(0,0,0,.3);
+    transform:scale(1.05); transition: all .3s ease-out;}
+
+.notice{width: 2000px; background:rgba(238, 238, 221, .4);
+    position: relative; top:0; left: 50%; transform: translateX(-50%);
+    overflow: hidden;}
+.notice div{width: 1200px; margin: 0 auto; position: relative;}
+.notice h3{text-align: left; margin: 100px 0 40px;}
+.notice p{text-align: left; font-size: 1.88em; font-weight: 500;
+    margin-bottom: 50px;}
+.notice ul{height: 540px; margin-bottom: 100px;}
+.notice li{display: block; text-align: center; width: 495px; 
+    padding: 40px; float: left; margin: 0 50px 50px 0;
+    background: #eed; height: max-content;}
+.notice li:nth-of-type(2),li:nth-of-type(4){
+    margin-right: 0;}
+.notice dl{text-align: left;}
+.notice dt{font-size: 1.3em; font-weight: 600; line-height: 2em;
+    margin-bottom: 20px;}
+.notice dd{font-weight: 400; line-height: 1.5em;}
+.notice dd:last-child{margin-top: 10px; text-align: right;}
+.notice a span:nth-last-child(1){position: absolute;
+    right: 0px; top:120px; font-size: 45px; color: #005533;}
+
+.notice li:hover{box-shadow: 1px 1px 15px 3px rgba(0,0,0,.3);
+    background: #fff;
+    transition: all .4s ease-out;}
+/* #content section{height: 400px;}
+#content section:nth-of-type(1){
+    width: 1200px; margin: 0 auto; background: yellow;
+}
+#content section:nth-of-type(2){
+    width: 1500px; margin: 0 auto; background: pink;
+}
+#content section:nth-of-type(3){
+    width: 100%; margin: 0 auto; background: orange;
+} */
+/* div하나 추가한 후 클래스명 지정후 width 주고 margin: 0 auto 하면 넓이 조정 가능*/
+/* 다른방법, 사진에 유리
+#content section:nth-of-type(1){
+    background:red; width:2000px; position:relative;
+    left:50%;translateX(-50%);}
+ */

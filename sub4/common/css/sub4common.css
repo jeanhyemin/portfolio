@@ -1,0 +1,45 @@
+/* font-family: "Lato", sans-serif; */
+/* font-family: "Noto Sans KR", sans-serif; */
+/* 서브페이지 회사소개의 공통 css */ 
+
+/* 비주얼 영역 */
+.visual{width: 2000px; height: 350px;
+    position: relative; left: 50%; top: 0; margin-top: 158px;
+    transform: translateX(-50%);
+    background: url(/sub4/common/images/title01.jpg);}
+.visual span{font-size: 2rem; display: block;
+    position: absolute; top: 150px; width: 100%;
+    text-align: center; color: #fff; font-weight: 400;}
+
+/* 서브메뉴 영역 */
+.sub_nav{width: 100%; border-bottom: 2px solid rgba(0,0,0, .1);}
+.sub_nav ul{overflow: hidden; width: 1200px; margin: 0 auto;}
+.sub_nav li{width: 25%; float: left; text-align: center;position: relative;}
+
+.sub_nav li a{font-size: 1.3rem; font-weight: 400;
+    padding: 15px 0; transition:all .5s}
+.sub_nav li:hover a, .sub_nav li .current{color: #053;
+    font-weight: 700;}
+.sub_nav li a::after{content: '';display: block; width: 100%; height: 2px; background: #053; position: absolute;
+        left: 0; bottom: 0; opacity: 0;}
+.sub_nav li:hover a::after, .sub_nav li .current::after{content: ''; opacity: .8;}
+
+/* title_area 영역 */
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative; margin-bottom: 150px;}
+#content .title_area .line_map{margin-top: 50px;
+    text-align: right;}
+#content .title_area h2{font-size: 3.5rem;
+    text-align: center; margin-top: 150px; margin-bottom: 20px;}
+#content .title_area h2::before{content: ''; display: block;
+    width: 258px; height: 18px;
+    position: absolute; top: 205px; left: 10%;
+    background-image: url(../images/arrow01.png);}
+#content .title_area h2::after{content: ''; display: block;
+    width: 258px; height: 18px;
+    position: absolute; top: 205px; right: 10%;
+    background-image: url(../images/arrow02.png);}
+#content .title_area p:first-of-type{font-size: 2em; text-align: center;
+    color: #053; font-weight: 700;}
+#content .title_area p{font-size: 1.5em; text-align: center;
+    margin: 100px auto 80px;}

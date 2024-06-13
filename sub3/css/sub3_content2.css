@@ -1,0 +1,46 @@
+#content .title_area h2::before{left: 7%;}
+#content .title_area h2::after{right: 7%;}
+
+#content .content_area{position: relative; margin-bottom: 200px;}
+
+#content .content_area >div ul{display: flex; justify-content: center;
+    width: 100%; height: 60px; border-bottom: 2px solid #053;
+    margin-bottom: 50px;}
+#content .content_area >div li{float: left; padding: 12px 0;
+    align-items: center; width: 25%;}
+#content .content_area >div li a h3{text-align: center;
+    font-size: 1.5em; font-weight: 400;}
+
+#content .content_area >div li:hover{background: rgba(0, 85, 51, 1);}
+#content .content_area >div li:hover a, #content .content_area div .current a{
+    color: #fff; font-weight: 600;}
+#content .content_area >div .current{background: rgba(0, 85, 51, 1);}
+
+#content .content_area .contlist{display: none;}
+#content .content_area .contlist:last-of-type{display: none;}
+
+#content .content_area .contlist >ul{width: 1000px; margin: 0 auto;}
+#content .content_area .contlist >ul >li{border-bottom: 1px solid #053; 
+   margin: 20px auto; overflow: hidden;}
+#content .content_area .contlist >ul >li img{float: left;
+    margin: 30px 0 0 100px;}
+#content .content_area .contlist >ul >li div{width: 500px;
+    float: right; margin-bottom: 50px;}
+
+#content .content_area .contlist dl dt{font-size: 1.5em;
+    font-weight: 700; margin: 30px auto 0;}
+#content .content_area .contlist dl dd{font-size: 1.3em;
+    font-weight: 500; margin: 10px auto;}
+
+#content .content_area .contlist ul div ul{margin-top: 10px;}
+#content .content_area .contlist ul div ul li{color: #053;
+    margin: 0 auto 5px; border-bottom: none;}
+
+#content .content_area .contlist:last-of-type{display: flex;
+    flex-wrap: wrap; justify-content:space-between;}
+#content .content_area .contlist:last-of-type div{width: 500px;
+    padding: 50px;}
+#content .content_area .contlist:last-of-type div img{
+    display: block; margin: auto; box-shadow: 6px 6px 5px 1px rgba(0,0,0,.3);}
+#content .content_area .contlist:last-of-type div p{text-align: center;
+    font-size: 1.5em; font-weight: 500; margin-top: 30px;}

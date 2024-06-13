@@ -1,0 +1,55 @@
+#content .title_area span{color: #E62; font-weight: 700;}
+
+#content .content_area{position: relative;}
+#content .content_area img{display: block; margin: 0 auto 100px;}
+#content .content_area .chart{
+    width: 550px; margin: 100px auto;}
+
+#content .content_area .promo{position: relative; height: 150px;}
+#content .content_area .promo strong{font-size: 2em; font-weight: 700;
+    color: #053; position: absolute; top: -385px; left: 570px;}
+#content .content_area .promo dl{position: absolute;}
+#content .content_area .promo dl dt{font-size: 1.5rem; font-weight: 600;
+    margin: 10px auto;}
+#content .content_area .promo dl:first-of-type dt::after{
+    content: ''; display: block; width: 345px; height: 5px;
+    background: #EA6; border-radius: 5px;}
+#content .content_area .promo dl:nth-of-type(2) dt::after{
+    content: ''; display: block; width: 415px; height: 5px;
+    background: #285; border-radius: 5px; text-align: right;}
+#content .content_area .promo dl:last-of-type dt::after{
+    content: ''; display: block; width: 408px; height: 5px;
+    background: #E62; border-radius: 5px;}
+
+#content .content_area .promo dl:first-of-type{top: -400px; left: 0;}
+#content .content_area .promo dl:nth-of-type(2){top: -580px; right: 0;
+    text-align: right;}
+#content .content_area .promo dl:last-of-type{top: -180px; right: 80px;
+    text-align: right;}
+
+#content .content_area .promo dl dd{font-size: 1rem; font-weight: 400;
+    margin: 10px auto; line-height: 1.3em;}
+#content .content_area .promo dl dd span{font-size: 1.2rem;
+    font-weight: 500;}
+/* #content .content_area .promo dl dd:nth-of-type(3)::before,
+#content .content_area .promo dl dd:nth-of-type(4)::before,
+#content .content_area .promo dl dd:last-of-type::before{content: '';
+    display: block; width: 5px; height: 5px; background: #333;
+    border-radius: 50%;} */
+
+
+#content .content_area ul{position: relative;
+    top: 0px; left: 0; margin-bottom: 200px;}
+#content .content_area ul li{font-size: 1.13em; font-weight: 400;
+    margin: 0 0 36px 25px;}
+#content .content_area ul li::before{content: ''; display: block;
+    width: 15px; height: 15px; background: #053;
+    border-radius: 50%; position: absolute; left: 0; margin-top: 7px;}
+
+
+        /* #content .content_area .promo dl:first-of-type
+    #content .content_area .promo dl:nth-of-type(2)
+    #content .content_area .promo dl:last-of-type */
+
+/* box-shadow: 1px 1px 15px 2px rgba(0,0,0,.3)
+left: 50%; transform: translateX(-50%); */

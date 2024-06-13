@@ -1,0 +1,23 @@
+#content .title_area h2::before{left: 15%;}
+#content .title_area h2::after{right: 15%;}
+
+#content .content_area >ul{margin: 100px 0 200px;
+    overflow: hidden;}
+#content .content_area >ul >li{height: 360px; padding: 20px auto;
+    margin: 50px 0;}
+#content .content_area ul li img{width: 450px; height: 300px;
+    border-radius: 20px; box-shadow: 2px 6px 10px 3px #999;
+    float: left; margin-right: 50px;}
+#content .content_area ul li div{float: right; width: 700px;
+    margin: 10px 0;}
+#content .content_area ul dl dt{font-size: 1.7em;
+    font-weight: 600;}
+#content .content_area ul dl dd{font-size: 1.1em;
+    font-weight: 400; line-height: 1.7em;
+    text-align: justify; margin: 20px 0;}
+#content .content_area ul li .tag{display: flex;
+    flex-wrap: wrap; width: 700px;}
+#content .content_area ul li .tag li{font-size: 1.13em;
+    font-weight: 500; color: #053; text-align: center;
+    padding: 5px 20px; margin: 3px 5px;
+    border: 1px solid #053; border-radius: 20px;}

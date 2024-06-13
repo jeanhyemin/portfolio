@@ -1,0 +1,156 @@
+{
+  "telecom": [
+    {
+        "cardName": "T멤버십",
+        "benefit1": "할인형:VIP/골드 1,000원당 150원 할인",
+        "benefit2": "적립형:골드/실버 1,000원당 50원 적립",
+        "cardImg": "./images/content2/card01.png",
+        "info1": "일 1회 사용 가능",
+        "info2": "구매금액 최대 20만원 내 할인 및 적립",
+        "info3": "T 플러스포인트 사용 가능"
+    },
+    {
+        "cardName": "KT 멤버십",
+        "benefit1": "VIP/골드:구매금액 1,000원당 150원 할인",
+        "benefit2": "실버/화이트/일반:구매금액 1,000원당 100원 할인",
+        "cardImg": "./images/content2/card02.png",
+        "info1": "일 1회 사용 가능",
+        "info2": "1회 최대 20만원 한도 할인"
+    },
+    {
+        "cardName": "LG U+LT 멤버십",
+        "benefit1": "전 등급 1,000원당 100원 할인",
+        "benefit2": "VIP/플래티넘:일 1회, 월 2회 캐시백",
+        "cardImg": "./images/content2/card03.png",
+        "info1": "일 1회 사용 가능",
+        "info2": "1회 구매금액 최대 2만원 할인 가능",
+        "info3": "월 구매금액 최대 10만원 할인 가능"
+    }
+  ],
+
+  "credit": [
+    {
+      "cardName": "CJ ONE 신한카드",
+      "benefit1": "구매금액의 15%할인",
+      "benefit2": "기본적립율의 2배 적립",
+      "cardImg": "./images/content2/card04.png",
+      "info1": "전월(1일~말일) 실적 20만원 이상",
+      "info2": "월 5회 한도(1회 최대 3만원 할인, CJ 푸드빌 15% 할인브랜드 통합 기준)",
+      "info3": "할인 횟수 초과 시, 기본 적립율의 2배 적립 (CJ ONE 포인트)"
+    },
+    {
+      "cardName": "CJ ONE 신한 체크카드",
+      "benefit1": "구매금액의 10% 캐시백",
+      "benefit2": "구매금액 2% 할인",
+      "cardImg": "./images/content2/card05.png",
+      "info1": "일 1회, 월 5회",
+      "info2":"1회 최대 1천원 캐시백 (뚜레쥬르/투썸플레이스 통합 기준)"
+    },
+    {
+      "cardName": "CJ ONE 하나 체크카드",
+      "benefit1": "적립한 CJ ONE 포인트",
+      "benefit2": "2배 캐쉬백",
+      "cardImg": "./images/content2/card06.png",
+      "info1": "전월 실적 30만원 이상 : 1만원 이상 결제 시 (월 최대 1만원 캐쉬백)",
+      "info2": "국내 하나카드 전 가맹점에서 2만원 당 100원 캐시백",
+      "info3": "전월 실적 20만원 이상 : 2배 캐쉬백과 중복 적용"
+    }, 
+    {
+      "cardName": "CJ 삼성 iD 카드",
+      "benefit1": "구매금액의 10% 할인",
+      "benefit2": "구매금액의 2% 캐시백",
+      "cardImg": "./images/content2/card07.png",
+      "info1": "월 할인한도 : 10,000원",
+      "info2": "전월 이용금액 30만원 이상 시 제공",
+      "info3": "발급월+1개월까지는 전월 이용금액 30만원 미만 시에도 혜택 제공",
+      "info4": "오프라인 결제건에 한하며, 백화점, 할인점, 쇼핑몰 등의 임대매장은 제외"
+    },
+    {
+      "cardName": "CJ ONE 우리 체크카드",
+      "benefit1": "3천원 캐시백",
+      "benefit2": "통합 일 1회, 월 6천원",
+      "cardImg": "./images/content2/card08.png",
+      "info1": "캐시백 금액은 월간 통합 캐시백 한도 내에서 제공",
+      "info2": "상품권 구매금액, 기프트카드, 선불카드의 구매 및 충전금액은 캐시백 제외"
+    },
+    {
+      "cardName": "CJ ONE 프리즘 신한카드",
+      "benefit1": "구매금액의 30% 적립",
+      "benefit2": "회원등급 VIP 혜택",
+      "cardImg": "./images/content2/card09.png",
+      "info1": "건별 최대 1만 포인트 적립",
+      "info2": "일 1회, 월 2회 사용 가능"
+    }
+  ],
+
+  "point":[
+    {
+      "cardName": "농협카드 NH포인트",
+      "benefit1": "구매 금액의 100% 포인트 사용",
+      "benefit2": "포인트 사용은 1일 횟수제한 없음",
+      "cardImg": "./images/content2/card10.png",
+      "info1": "포인트 한도 내에서 결제 가능",
+      "info2": "잔여 포인트 부족 시 보유 중인 포인트 만큼만 차감"
+    },
+    {
+      "cardName": "현대카드 M포인트",
+      "benefit1": "구매 금액의 50% 포인트 사용",
+      "benefit2": "추가 결제금액에 대해 CJ ONE 0.1% 적립 가능",
+      "cardImg": "./images/content2/card11.png",
+      "info1": "포인트 한도 내에서 결제 가능",
+      "info2": "잔여 포인트 부족 시 보유 중인 포인트 만큼만 차감"
+    },
+    {
+      "cardName": "신한카드 Hi-Point",
+      "benefit1": "구매 금액의 15% 포인트 사용",
+      "benefit2": "횟수 제한 없음",
+      "cardImg": "./images/content2/card12.png",
+      "info1": "포인트 한도 내에서 결제 가능",
+      "info2": "잔여 포인트 부족 시 보유 중인 포인트 만큼만 차감",
+      "info3": "Nano/Nano F, S-MORE, 체크카드 포함 한도 및 횟수 제한 없음"
+    },
+    {
+      "cardName": "블루멤버스",
+      "benefit1": "구매 금액의 20% 포인트 사용",
+      "benefit2": "연 100회 사용가능",
+      "cardImg": "./images/content2/card13.png",
+      "info1": "1일 10회, 월 10회 이내 사용",
+      "info2": "보유 포인트가 구매 금액의 20% 미만 시 사용불가"
+    },
+    {
+      "cardName": "기아멤버스",
+      "benefit1": "구매 금액의 20% 포인트 사용",
+      "benefit2": "연 100회 사용가능",
+      "cardImg": "./images/content2/card14.png",
+      "info1": "1일 10회, 월 10회 이내 사용",
+      "info2": "보유 포인트가 구매 금액의 20% 미만 시 사용불가"
+    }
+  ],
+
+  "paper":[
+    {
+      "paperName": "CJ 상품권",
+      "paperImg": "./images/content2/paper01.png"
+    },
+    {
+      "paperName": "문화 상품권",
+      "paperImg": "./images/content2/paper02.png"
+    },
+    {
+      "paperName": "쇼핑문화 상품권",
+      "paperImg": "./images/content2/paper03.png"
+    },
+    {
+      "paperName": "해피머니 상품권",
+      "paperImg": "./images/content2/paper04.png"
+    },
+    {
+      "paperName": "SK 상품권",
+      "paperImg": "./images/content2/paper05.png"
+    },
+    {
+      "paperName": "홈플러스 상품권",
+      "paperImg": "./images/content2/paper06.png"
+    }
+  ]
+}

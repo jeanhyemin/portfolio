@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제품 및 구매-매장찾기</title>
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub2common.css">
+    <link rel="stylesheet" href="./css/sub2_content2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <script src="https://kit.fontawesome.com/d8325a3115.js" crossorigin="anonymous"></script>
+ <!-- <script src="./common/js/prefixfree.min.js"></script> -->
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=bd9fbaa35e6012609666a05b45aeb9ae"></script>
+    <script src="./js/map.js"></script>
+</head>
+<body>
+    <? include '../common/sub_header.html' ?>
+        <div class="visual">
+            <img src="common/images/title01.jpg" alt="">
+            <span>제품 및 구매</span>
+        </div>
+
+        <div class="sub_nav">
+            <ul>
+                <li><a href="./sub2_1.html">제품소개</a></li>
+                <li><a href="./sub2_2.html" class="current">매장찾기</a></li>
+                <li><a href="./sub2_3.html">뚜레쥬르 앱</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    home &gt; 제품 및 구매 &gt; <strong>매장찾기</strong>
+                </div>
+                <h2>매장안내</h2>
+                <h3>서울 지역</h3>
+                <p>서울 지역의 뚜레쥬르 매장을 방문해보세요.</p>
+            </div>
+            <div class="content_area">
+                <div>
+                    <ul>
+                        <li class="tab current"><a href="#"><h4>강남대로</h4></a></li>
+                        <li class="tab"><a href="#"><h4>명동역</h4></a></li>
+                        <li class="tab"><a href="#"><h4>건대입구역</h4></a></li>
+                        <li class="tab"><a href="#"><h4>마포홍대</h4></a></li>
+                    </ul>
+                </div>
+                <ul>
+                    <li class="contlist">
+                        <div class="map_api">
+                            <!-- 카카오지도 삽입 -->
+                            <div id="map1"></div>
+                        </div>
+                        <dl>
+                            <dt>뚜레쥬르 강남대로</dt>
+                            <dd>도로명주소 : 서울특별시 강남구 강남대로 524 (논현동,건일빌딩) 1층 뚜레쥬르</dd>
+                            <dd>지번주소 : 서울특별시 강남구 논현동 143-15 (건일빌딩) 1층 뚜레쥬르</dd>
+                            <dd>
+                                <i class="fa-solid fa-phone-volume"></i>
+                                02-545-3644
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="contlist">
+                        <div class="map_api">
+                            <!-- 카카오지도 삽입 -->
+                            <div id="map2"></div>
+                        </div>
+                        <dl>
+                            <dt>뚜레쥬르 명동역</dt>
+                            <dd>도로명주소 : 서울특별시 중구 퇴계로 131, 1층(충무로2가,신일빌딩)</dd>
+                            <dd>지번주소 : 서울특별시 중구 충무로2가 64-5, 신일빌딩</dd>
+                            <dd>
+                                <i class="fa-solid fa-phone-volume"></i>
+                                02-319-7863
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="contlist">
+                        <div class="map_api">
+                            <!-- 카카오지도 삽입 -->
+                            <div id="map3"></div>
+                        </div>
+                        <dl>
+                            <dt>뚜레쥬르 건대입구역</dt>
+                            <dd>도로명주소 : 서울 광진구 아차산로 225 단산화빌딩 1층 뚜레쥬르</dd>
+                            <dd>지번주소 : 서울 광진구 화양동 7-44 1층 뚜레쥬르</dd>
+                            <dd>
+                                <i class="fa-solid fa-phone-volume"></i>
+                                02-466-0962
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="contlist">
+                        <div class="map_api">
+                            <!-- 카카오지도 삽입 -->
+                            <div id="map4"></div>
+                        </div>
+                        <dl>
+                            <dt>뚜레쥬르 마포홍대</dt>
+                            <dd>도로명주소 : 서울시마포구 홍익로 10 서교푸르지오 상가동 105호, 146</dd>
+                            <dd>지번주소 : 서울특별시 영등포구 영등포동7가 208 (포레나영등포센트럴) 상가동 114호</dd>
+                            <dd>
+                                <i class="fa-solid fa-phone-volume"></i>
+                                070-8800-9061
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+        </article>
+    <? include '../common/sub_footer.html' ?>
+    <script src="./js/tab.js"></script>
+</body>
+</html>

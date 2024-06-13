@@ -1,0 +1,117 @@
+#content .content_area >ul{display: flex; justify-content: center;
+    width: 100%; height: 60px; margin-bottom: 50px;}
+#content .content_area >ul li{float: left; padding: 12px 0;
+    align-items: center; width: 40%; border-bottom: 2px solid #053;}
+#content .content_area .tab h3{text-align: center;
+    font-size: 1.5em; font-weight: 400; color: #053;}
+#content .content_area .menu1 a h3{font-family: "Lato", sans-serif;}
+#content .content_area .menu2 a h3{font-family: "Noto Sans KR", sans-serif;}
+
+#content .content_area .tab:hover{background: rgba(0, 85, 51, 1);}
+#content .content_area .tab:hover h3{color: #fff; font-weight: 500;}
+#content .content_area >ul .current{background: rgba(0, 85, 51, 1);}
+#content .content_area .current a h3{color: #fff; font-weight: 500;}
+
+#content .content_area .tab1 section{width: 80%; margin: 0 auto;
+    overflow: hidden;}
+#content .content_area .tab1 section h4{font-size: 1.5em;
+    font-weight: 600; color: #053; margin: 100px auto 50px;}
+.content_area .tab1 section:first-of-type ul li{float: left;
+    margin-right: 50px; position: relative;}
+.content_area .tab1 section:first-of-type ul li:last-of-type{
+    margin-right: 0;}
+.content_area .tab1 section div span{display: block;
+    border-radius: 100px; width: 200px; height: 200px;}
+.content_area .tab1 section div dl{margin: 40px auto; text-align: center}
+.content_area .tab1 section div dl dt{font-size: 1.5em;
+    font-weight: 500; margin: 25px auto;}
+.content_area .tab1 section div dl dd{font-size: 1.25em;
+    font-weight: 400;}
+.content_area .tab1 section div:last-of-type{width: 170px; height: 230px;
+text-align: center; padding: 60px 15px 40px;}
+.content_area .tab1 section div strong{font-size: 1.5em;
+    font-weight: 500; color: #fff; font-family: "Lato", sans-serif;
+    display: block; margin: 10px auto 50px;}
+.content_area .tab1 section div p{font-size: 1.13em;
+    font-weight: 400; color: #fff;}
+.content_area .tab1 section li:nth-of-type(3) strong,
+.content_area .tab1 section li:nth-of-type(3) p{color: #333;}
+.content_area .tab1 section li:nth-of-type(3) div:last-of-type,
+.content_area .tab1 section li:last-of-type div:last-of-type{height: 210px; padding: 80px 15px 40px;}
+#content .content_area .tab1 section:first-of-type li:first-of-type span{background: #053;}
+#content .content_area .tab1 section:first-of-type li:nth-of-type(2) span{background: #E62;}
+#content .content_area .tab1 section:first-of-type li:nth-of-type(3) span{background: #EED;}
+#content .content_area .tab1 section:first-of-type li:last-of-type span{background: #B97;}
+
+#content .content_area .tab1 section:first-of-type li div:last-of-type{
+    position: absolute; top: 0; left: 0; opacity: 0; transition: all .3s ease-out;
+}
+#content .content_area .tab1 section:first-of-type li:hover div:last-of-type{
+    opacity: 1; z-index: 10; transition: all .6s ease-out;
+}
+#content .content_area .tab1 section:first-of-type li:first-of-type:hover div:last-of-type{
+    background: #053;}
+#content .content_area .tab1 section:first-of-type li:nth-of-type(2):hover div:last-of-type{
+    background: #E62;}
+#content .content_area .tab1 section:first-of-type li:nth-of-type(3):hover div:last-of-type{
+    background: #EED;}
+#content .content_area .tab1 section:first-of-type li:last-of-type:hover div:last-of-type{
+    background: #B97;}
+
+#content .content_area .tab1 section >img{margin: 50px auto; display: flex;}
+#content .content_area .tab1 section:nth-of-type(2) p{width: 600px;
+    margin: auto;}
+
+#content .content_area .tab1 section:last-of-type{margin-bottom: 200px;}
+#content .content_area .tab1 section:last-of-type ul{display: flex;
+    justify-content: center; margin: 50px auto;}
+#content .content_area .tab1 section:last-of-type ul li span{display: block;
+    text-align: center; margin-top: 20px;}
+#content .content_area .tab1 section:last-of-type p{width: 640px;
+    margin: auto;}
+
+#content .content_area .tab2{width: 100%;}
+#content .content_area .tab2 section{width: 80%; margin: 110px auto;
+    overflow: hidden;}
+#content .content_area .tab2 section dl span{font-size: 1.25em;
+    font-weight: 600;}
+#content .content_area .tab2 section dl dt{font-size: 1.5em;
+    font-weight: 500;}
+#content .content_area .tab2 section dl dd{font-size: 1.13em;
+    font-weight: 400;}
+
+#content .content_area .tab2 section:first-of-type{width: 965px;
+    background: url(../images/content1/con05.png); height: 957px;}
+#content .content_area .tab2 section p:first-of-type{font-size: 1.5em;
+    font-weight: 400; text-align: center; margin: 90px auto 100px;}
+#content .content_area .tab2 section:first-of-type dl span{color: #B97;}
+#content .content_area .tab2 section:first-of-type dl{color:#fff;
+    margin: 150px 115px 210px;}
+#content .content_area .tab2 section:first-of-type dl:first-of-type{
+    text-align: right;}
+#content .content_area .tab2 section:first-of-type dl dt{
+    line-height: 4rem;}
+
+#content .content_area .tab2 section:nth-of-type(2) img{float: left;}
+#content .content_area .tab2 section:nth-of-type(2) dl {
+    margin: 65px 0 65px 510px;}
+#content .content_area .tab2 section:nth-of-type(2) dl span{color: #053;}
+
+#content .content_area .tab2 section:nth-of-type(3){
+    background: url(../images/content1/con07.jpg) center no-repeat; width:2000px;
+    background-attachment:fixed; height: 650px;
+    position: relative; top: 0; left: 50%; margin-left: -1000px;}
+#content .content_area .tab2 section:nth-of-type(3) strong{display: block;
+    font-size: 1.88em; font-weight: 500; text-align: center; color: #fff;
+    margin: 250px auto 30px;}
+#content .content_area .tab2 section:nth-of-type(3) p{color: #fff;
+    margin: 20px auto;}
+
+#content .content_area .tab2 section:last-of-type{width: 100%;
+    margin-bottom: 200px;}
+#content .content_area .tab2 section:last-of-type dl{margin: 50px 60px 50px 0;}
+#content .content_area .tab2 section:last-of-type dl span{color: #E62;}
+#content .content_area .tab2 section:last-of-type img{float: right;}
+#content .content_area .tab2 section:last-of-type div{float: left;}
+
+#content .content_area .contlist {display: none;}

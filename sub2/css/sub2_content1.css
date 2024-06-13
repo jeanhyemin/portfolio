@@ -1,0 +1,44 @@
+/* title_area 영역 */
+#content .title_area p:first-of-type{font-size: 2em; text-align: center;
+    color: #053; font-weight: 700;}
+#content .title_area p{font-size: 1.5em; text-align: center;
+    margin: 30px;}
+
+/* content_area 영역 */
+#content .content_area{position: relative;}
+
+#content .content_area ul{margin: 80px auto; height: 320px;}
+#content .content_area ul li{width: 25%; float: left;
+    position: relative;}
+#content .content_area ul li a{overflow: hidden;
+    border-radius: 30px; position: relative;
+    border: 1px solid rgba(238, 238, 221, 1);
+    width: 280px; height: 270px; margin-right: 25px;}
+#content .content_area ul li a:last-of-type{margin-right: 0;}
+#content .content_area ul li img{
+    position: relative; top: 0; left: 50%;
+    transform: translateX(-50%);
+    transition: all .3s ease-out;}
+#content .content_area ul li button{width: 250px; height: 35px;
+    position: absolute; left: 50%; top: 300px;
+    transform: translateX(-50%);
+    border-radius: 15px; background: rgba(187, 153, 119, 1);
+    border: 0; font-size: 1.25rem; font-weight: 400;
+    color: #fff; font-family: "Noto Sans KR", sans-serif;}
+#content .content_area ul li div{font-size: 1.25em;
+    font-weight: 400; text-align: center; margin-top: 20px;}
+
+#content .content_area ul li a:hover{
+    box-shadow: 1px 1px 15px 4px rgba(187, 153, 119, .5);
+    transition: all .3s ease-out;}
+#content .content_area ul li a:hover button{top: 220px;
+    transition: all .3s ease-out; transition-delay: .1s;}
+
+
+#content .content_area .view_more{border-radius: 30px;
+    background: rgba(187, 153, 119, 1);
+    width: 150px; height: 50px; display: flex;
+    justify-content: center; align-items: center;
+    border: 0; font-size: 1.25rem; font-weight: 500;
+    color: #fff; font-family: "Noto Sans KR", sans-serif;
+    margin: 50px auto 200px;}
